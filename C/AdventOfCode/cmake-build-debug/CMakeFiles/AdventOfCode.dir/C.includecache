@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.c
+stdio.h
+-
+stdlib.h
+-
+day1Sonar.h
+/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.h
+main.h
+/home/danw/AdventOfCode/C/AdventOfCode/main.h
+
+/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.h
+stdint-gcc.h
+-
+
+/home/danw/AdventOfCode/C/AdventOfCode/main.c
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+main.h
+/home/danw/AdventOfCode/C/AdventOfCode/main.h
+day1Sonar.h
+/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.h
+
+/home/danw/AdventOfCode/C/AdventOfCode/main.h
+stdint-gcc.h
+-
+

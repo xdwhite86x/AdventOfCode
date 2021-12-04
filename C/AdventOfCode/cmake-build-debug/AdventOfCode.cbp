@@ -76,7 +76,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.c">
+			<Option target="AdventOfCode"/>
+		</Unit>
+		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.h">
+			<Option target="AdventOfCode"/>
+		</Unit>
 		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/main.c">
+			<Option target="AdventOfCode"/>
+		</Unit>
+		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/main.h">
 			<Option target="AdventOfCode"/>
 		</Unit>
 		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/CMakeLists.txt">
