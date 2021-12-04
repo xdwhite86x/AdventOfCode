@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.c
-stdio.h
+/home/danw/AdventOfCode/C/AdventOfCode/Day2Dive.h
+stdint-gcc.h
 -
-stdlib.h
--
-day1Sonar.h
-/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.h
-main.h
-/home/danw/AdventOfCode/C/AdventOfCode/main.h
 
 /home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.h
 stdint-gcc.h
@@ -31,6 +25,8 @@ main.h
 /home/danw/AdventOfCode/C/AdventOfCode/main.h
 day1Sonar.h
 /home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.h
+Day2Dive.h
+/home/danw/AdventOfCode/C/AdventOfCode/Day2Dive.h
 
 /home/danw/AdventOfCode/C/AdventOfCode/main.h
 stdint-gcc.h

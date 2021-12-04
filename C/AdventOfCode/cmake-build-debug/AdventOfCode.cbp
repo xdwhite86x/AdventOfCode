@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/Day2Dive.c">
+			<Option target="AdventOfCode"/>
+		</Unit>
+		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/Day2Dive.h">
+			<Option target="AdventOfCode"/>
+		</Unit>
 		<Unit filename="/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.c">
 			<Option target="AdventOfCode"/>
 		</Unit>

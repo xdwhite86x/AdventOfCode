@@ -129,6 +129,30 @@ AdventOfCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/build
 .PHONY : AdventOfCode/fast
 
+Day2Dive.o: Day2Dive.c.o
+.PHONY : Day2Dive.o
+
+# target to build an object file
+Day2Dive.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/Day2Dive.c.o
+.PHONY : Day2Dive.c.o
+
+Day2Dive.i: Day2Dive.c.i
+.PHONY : Day2Dive.i
+
+# target to preprocess a source file
+Day2Dive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/Day2Dive.c.i
+.PHONY : Day2Dive.c.i
+
+Day2Dive.s: Day2Dive.c.s
+.PHONY : Day2Dive.s
+
+# target to generate assembly for a file
+Day2Dive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/Day2Dive.c.s
+.PHONY : Day2Dive.c.s
+
 day1Sonar.o: day1Sonar.c.o
 .PHONY : day1Sonar.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AdventOfCode"
+	@echo "... Day2Dive.o"
+	@echo "... Day2Dive.i"
+	@echo "... Day2Dive.s"
 	@echo "... day1Sonar.o"
 	@echo "... day1Sonar.i"
 	@echo "... day1Sonar.s"

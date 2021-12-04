@@ -47,7 +47,7 @@ uint16_t day1_SonarPart1()
   return increased;
 
 }
-uint16_t day2_SonarPart2()
+uint16_t day1_SonarPart2()
 {
   FILE* fp;
   uint16_t increased = 0;
@@ -66,16 +66,19 @@ uint16_t day2_SonarPart2()
 
   for (i = 0; i < 2000 - 2; ++i )
   {
+    if (i + 3 > 2000)
+      break;
+
     uint16_t sum1 = (file[i] + file[i + 1] + file[i + 2]);
     uint16_t sum2 = (file[i + 1] + file[i + 2] + file[i + 3]);
     if (sum2 > sum1)
       ++increased;
-
+  }
 
     fclose(fp);
     return increased;
 
-  }
+
 
 
 }
