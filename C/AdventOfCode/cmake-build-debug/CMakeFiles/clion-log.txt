@@ -1,4 +1,0 @@
-/home/danw/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/danw/AdventOfCode/C/AdventOfCode
--- Configuring done
--- Generating done
--- Build files have been written to: /home/danw/AdventOfCode/C/AdventOfCode/cmake-build-debug

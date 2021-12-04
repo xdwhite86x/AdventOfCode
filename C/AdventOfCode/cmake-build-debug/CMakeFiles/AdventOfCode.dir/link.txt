@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/AdventOfCode.dir/main.c.o CMakeFiles/AdventOfCode.dir/day1Sonar.c.o CMakeFiles/AdventOfCode.dir/Day2Dive.c.o CMakeFiles/AdventOfCode.dir/Day3BinaryDiagnostic.c.o -o AdventOfCode 
