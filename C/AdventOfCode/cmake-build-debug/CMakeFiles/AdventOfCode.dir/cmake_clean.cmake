@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "AdventOfCode"
   "AdventOfCode.pdb"
   "CMakeFiles/AdventOfCode.dir/Day2Dive.c.o"
+  "CMakeFiles/AdventOfCode.dir/Day3BinaryDiagnostic.c.o"
   "CMakeFiles/AdventOfCode.dir/day1Sonar.c.o"
   "CMakeFiles/AdventOfCode.dir/main.c.o"
 )

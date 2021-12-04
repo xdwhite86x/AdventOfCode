@@ -4,12 +4,16 @@
 CMakeFiles/AdventOfCode.dir/Day2Dive.c.o: \
  ../Day2Dive.c \
  ../Day2Dive.h
+CMakeFiles/AdventOfCode.dir/Day3BinaryDiagnostic.c.o: \
+ ../Day3BinaryDiagnostic.c \
+ ../Day3BinaryDiagnostic.h
 CMakeFiles/AdventOfCode.dir/day1Sonar.c.o: \
  ../day1Sonar.c \
  ../day1Sonar.h \
  ../main.h
 CMakeFiles/AdventOfCode.dir/main.c.o: \
  ../Day2Dive.h \
+ ../Day3BinaryDiagnostic.h \
  ../day1Sonar.h \
  ../main.c \
  ../main.h

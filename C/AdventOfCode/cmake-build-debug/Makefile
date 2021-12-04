@@ -153,6 +153,30 @@ Day2Dive.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/Day2Dive.c.s
 .PHONY : Day2Dive.c.s
 
+Day3BinaryDiagnostic.o: Day3BinaryDiagnostic.c.o
+.PHONY : Day3BinaryDiagnostic.o
+
+# target to build an object file
+Day3BinaryDiagnostic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/Day3BinaryDiagnostic.c.o
+.PHONY : Day3BinaryDiagnostic.c.o
+
+Day3BinaryDiagnostic.i: Day3BinaryDiagnostic.c.i
+.PHONY : Day3BinaryDiagnostic.i
+
+# target to preprocess a source file
+Day3BinaryDiagnostic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/Day3BinaryDiagnostic.c.i
+.PHONY : Day3BinaryDiagnostic.c.i
+
+Day3BinaryDiagnostic.s: Day3BinaryDiagnostic.c.s
+.PHONY : Day3BinaryDiagnostic.s
+
+# target to generate assembly for a file
+Day3BinaryDiagnostic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode.dir/build.make CMakeFiles/AdventOfCode.dir/Day3BinaryDiagnostic.c.s
+.PHONY : Day3BinaryDiagnostic.c.s
+
 day1Sonar.o: day1Sonar.c.o
 .PHONY : day1Sonar.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... Day2Dive.o"
 	@echo "... Day2Dive.i"
 	@echo "... Day2Dive.s"
+	@echo "... Day3BinaryDiagnostic.o"
+	@echo "... Day3BinaryDiagnostic.i"
+	@echo "... Day3BinaryDiagnostic.s"
 	@echo "... day1Sonar.o"
 	@echo "... day1Sonar.i"
 	@echo "... day1Sonar.s"

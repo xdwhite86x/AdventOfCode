@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/danw/AdventOfCode/C/AdventOfCode/Day2Dive.c" "/home/danw/AdventOfCode/C/AdventOfCode/cmake-build-debug/CMakeFiles/AdventOfCode.dir/Day2Dive.c.o"
+  "/home/danw/AdventOfCode/C/AdventOfCode/Day3BinaryDiagnostic.c" "/home/danw/AdventOfCode/C/AdventOfCode/cmake-build-debug/CMakeFiles/AdventOfCode.dir/Day3BinaryDiagnostic.c.o"
   "/home/danw/AdventOfCode/C/AdventOfCode/day1Sonar.c" "/home/danw/AdventOfCode/C/AdventOfCode/cmake-build-debug/CMakeFiles/AdventOfCode.dir/day1Sonar.c.o"
   "/home/danw/AdventOfCode/C/AdventOfCode/main.c" "/home/danw/AdventOfCode/C/AdventOfCode/cmake-build-debug/CMakeFiles/AdventOfCode.dir/main.c.o"
   )
