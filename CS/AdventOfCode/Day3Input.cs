@@ -9,11 +9,12 @@ namespace AdventOfCode
         public BitArray BitValues { get; }
         public UInt16 DecimalValue { get; }
 
-        private const int Inputlength = 12; 
+        private int Inputlength = 12; 
 
         public Day3Input(string fileInput)
         {
             StringValue = fileInput;
+            Inputlength = fileInput.Length;
             BitValues = new BitArray(Inputlength);
             DecimalValue = Convert(StringValue);
 

@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def022f6-9f2f-412e-81ec-4fa2b13b110e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventOfCode.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3Input.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtensionMethods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/AdventOfCode/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bingo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BingoBoard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BingoNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputDay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3Input.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3Input.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,26 +30,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/B7/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21pVX6bwdADvHzeiJhWZ3Wfak6i" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34997988" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34983897" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3852657" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -83,12 +82,16 @@
       <option name="presentableId" value="Default" />
       <updated>1638638054485</updated>
       <workItem from="1638638057421" duration="3531000" />
+      <workItem from="1638662778960" duration="5236000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -99,58 +102,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ExtensionMethods.cs</url>
-          <line>9</line>
-          <properties documentPath="$PROJECT_DIR$/ExtensionMethods.cs" initialLine="9" containingFunctionPresentation="method 'CreateSublistFromIndexes'">
-            <startOffsets>
-              <option value="287" />
-            </startOffsets>
-            <endOffsets>
-              <option value="317" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/Program.cs" initialLine="57" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="1530" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1560" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ExtensionMethods.cs</url>
-          <line>14</line>
-          <properties documentPath="$PROJECT_DIR$/ExtensionMethods.cs" initialLine="14" containingFunctionPresentation="method 'CreateSublistFromIndexes'">
-            <startOffsets>
-              <option value="401" />
-            </startOffsets>
-            <endOffsets>
-              <option value="415" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="Frame#AdventOfCode.Bingo..ctor" memberName="boardLine" />
         <PinnedItemInfo parentTag="Type#AdventOfCode.Day3Input" memberName="BitValues" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="BingoBoards" />
+        <watch expression="temp.Split(' ')" language="C#" />
+        <watch expression="boardLine" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
