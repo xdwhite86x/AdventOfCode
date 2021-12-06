@@ -5,21 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def022f6-9f2f-412e-81ec-4fa2b13b110e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../C/AdventOfCode/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bingo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BingoBoard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BingoNumber.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input32.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputDay4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/AdventOfCode/input-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/BingoBoard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/temp4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day5/Coordinates.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day5/HydroThermalLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day5/inputDay5-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day5/inputDay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/Day2Dive.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/Day2Dive.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/Day3BinaryDiagnostic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/day1Sonar.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/day1Sonar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/day4Bingo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C/AdventOfCode/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C/AdventOfCode/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3Input.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3Input.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bingo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Bingo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BingoBoard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BingoNumber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/BingoNumber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3Input.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Day3Input.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtensionMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ExtensionMethods.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/input32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputDay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/inputDay4.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +40,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/B7/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21pVX6bwdADvHzeiJhWZ3Wfak6i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,6 +100,7 @@
       <updated>1638638054485</updated>
       <workItem from="1638638057421" duration="3531000" />
       <workItem from="1638662778960" duration="5236000" />
+      <workItem from="1638718807099" duration="11547000" />
     </task>
     <servers />
   </component>
@@ -90,7 +108,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -109,6 +127,23 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>41</line>
+          <properties documentPath="C:\Users\jaksl\AdventOfCode\CS\AdventOfCode\Program.cs" initialLine="40" containingFunctionPresentation="method 'day5_part1'">
+            <startOffsets>
+              <option value="1142" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1169" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Frame#AdventOfCode.Bingo..ctor" memberName="boardLine" />

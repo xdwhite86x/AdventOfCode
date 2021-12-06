@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include "Day3BinaryDiagnostic.h"
 #include <string.h>
+#include <stdint.h>
 
 uint16_t day3_binaryDiagnosticPart1()
 {
@@ -92,7 +93,7 @@ uint16_t day3_binaryDiagnosticPart2()
   }
 
 
-
+  return 0;
 
 
 }

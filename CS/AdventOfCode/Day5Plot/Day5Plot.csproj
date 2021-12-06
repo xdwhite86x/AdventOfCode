@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\Day5\Coordinates.cs">
+        <Link>Coordinates.cs</Link>
+      </Compile>
+      <Compile Include="..\Day5\HydroThermalLine.cs">
+        <Link>HydroThermalLine.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\Day5\inputDay5-test.txt">
+        <Link>inputDay5-test.txt</Link>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\Day5\inputDay5.txt">
+        <Link>inputDay5.txt</Link>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

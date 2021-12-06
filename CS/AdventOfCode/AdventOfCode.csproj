@@ -14,15 +14,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="input3.txt">
+    <None Update="Day4\inputDay4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="input32.txt">
+    <None Update="Day3\input32.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="inputDay4.txt">
+    <None Update="Day3\input3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Day4\temp4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Day5\inputDay5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Day5\inputDay5-test.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Remove="Day5Plot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Day5Plot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Day5Plot\**" />
   </ItemGroup>
 
 </Project>

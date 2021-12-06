@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace AdventOfCode
+namespace AdventOfCode.Day4
 {
     public class Bingo
     {
@@ -28,13 +28,12 @@ namespace AdventOfCode
             sr.ReadLine();
             while (!sr.EndOfStream)
             {
+                BingoBoard bingoBoard = new(boardCount);
                 ++boardCount;
-                BingoBoard bingoBoard = new();
-                
                 for (int i = 0; i < 5; ++i)
                 {
                     List<BingoNumber> boardLine = new();
-                    Console.WriteLine("Reading Board Line {0} of board {1}", i, boardCount);
+                    //Console.WriteLine("Reading Board Line {0} of board {1}", i, boardCount);
                     var temp = sr.ReadLine();
                     foreach (string s in temp.Split(new [] { ' '}, StringSplitOptions.RemoveEmptyEntries))
                     {

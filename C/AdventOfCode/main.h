@@ -2,7 +2,7 @@
 // Created by danw on 12/3/21.
 //
 
-#include <stdint-gcc.h>
+#include <stdint.h>
 
 #ifndef ADVENTOFCODE_MAIN_H
 #define ADVENTOFCODE_MAIN_H

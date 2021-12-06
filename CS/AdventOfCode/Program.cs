@@ -1,23 +1,107 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Reflection.Metadata.Ecma335;
+using AdventOfCode.Day3;
+using AdventOfCode.Day4;
+using AdventOfCode.Day5;
+using Microsoft.VisualBasic.FileIO;
 
 namespace AdventOfCode
 {
     class Program
     {
         private static Bingo bingo;
+        private static List<HydroThermalLine> pointsList = new();
+        public static int[,] grid = new int[10, 10];
         static void Main(string[] args)
         {
-            day4_part1();
+            day5_part1();
+        }
+
+        private static void day5_part1()
+        {
+            for (int i = 0; i < 10; ++i)
+            {
+                for (int j = 0; j < 10; ++j)
+                {
+                    grid[i, j] = 0;
+                }
+            }
+            ParseLineDataFile();
+            foreach (var line in pointsList)
+            {
+                Console.WriteLine(line.Angle);
+                
+                
+                if (line.isHorizontalOrVertical)
+                {
+                    if (line.Angle is 0 or 180) //horizontal line start is left of end
+                    {
+                        for (int i = line.Start.X; i < line.End.X; ++i)
+                        {
+                            grid[i, line.End.Y]++;
+                        }
+                    }
+                    if (line.Angle is 90)// vertical line start is above end
+                    {
+                        for (int i = line.Start.Y; i < line.End.Y; ++i)
+                        {
+                            grid[line.End.X, i]++;
+                        }
+                    }
+                    if (line.Angle is -180) //horizontal line end is left of start
+                    {
+                        for (int i = line.Start.X; i < line.End.X; --i)
+                        {
+                            grid[i, line.End.X]++;
+                        }
+                    }
+                    if (line.Angle is -90) //vertical line end is above start
+                    {
+                        for (int i = line.Start.Y; i < line.End.Y; --i)
+                        {
+                            grid[line.End.Y, i]++;
+                        }
+                    }
+                }
+            }
+            
+            for (int i = 0; i < 10; ++i)
+            {
+                for (int j = 0; j < 10; ++j)
+                {
+                    Console.Write("{0:D1}",grid[i,j]);
+                }
+                Console.WriteLine();
+            }
+        }
+
+        private static double GetLineAngle(HydroThermalLine hl)
+        {
+            return (Math.Atan2(hl.DeltaY, hl.DeltaX)) * 180 / Math.PI;
+        }
+
+        private static void ParseLineDataFile()
+        {
+            using StreamReader sr = new("./Day5/inputDay5-test.txt");
+            while (!(sr.EndOfStream))
+            {
+                var hl = new HydroThermalLine(sr.ReadLine());
+                pointsList.Add(hl);
+            }
+          
         }
 
         private static void day4_part1()
         {
             ParseBingoFile();
-
+            int? winningBoard = null;
+            int? winningNumber = null;
             foreach (var num in bingo.CalledNumbers)
             {
+                Console.WriteLine("Checking Number {0}", num);
                 foreach (var board in bingo.BingoBoards)
                 {
                     foreach(var line in board.Board)
@@ -28,8 +112,129 @@ namespace AdventOfCode
                                 val.Called = true;
                         }
                     }
+
+                    if (board.isWinner())
+                    {
+                        winningBoard = board.BoardNumber;
+                        winningNumber = num;
+                    }
+                }
+                
+                if (!(winningBoard is null))
+                {
+                    
+                    break;
+                }
+                
+                
+            }
+
+            foreach (var board in bingo.BingoBoards)
+            {
+                if (board.isWinner())
+                {
+                    var temp = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("WINNER");
+                    Console.ForegroundColor = temp;
+
+                    foreach (var line in board.Board)
+                    {
+                        foreach (var val in line)
+                        {
+                            var color = Console.ForegroundColor;
+                            if (val.Called)
+                            {
+
+                                Console.ForegroundColor = ConsoleColor.Red;
+                            }
+
+                            Console.Write(" {0:D2} ", val.Value);
+                            Console.ForegroundColor = color;
+                        }
+
+                        Console.WriteLine();
+                    }
+
+                    Console.WriteLine();
                 }
             }
+            Console.WriteLine(winningBoard);
+            Console.WriteLine(winningNumber);
+            Console.WriteLine("winning sum is {0} and winning number is {1}",bingo.BingoBoards[(int)winningBoard].GetUncalledNumberSum(), (int)winningNumber );
+            Console.WriteLine(bingo.BingoBoards[(int)winningBoard].GetUncalledNumberSum() * (int)winningNumber);
+            
+        }
+        
+        private static void day4_part2()
+        {
+            ParseBingoFile();
+            int? winningBoard = null;
+            int? winningNumber = null;
+            foreach (var num in bingo.CalledNumbers)
+            {
+                Console.WriteLine("Checking Number {0}", num);
+                foreach (var board in bingo.BingoBoards.Where(o => !o.isWinner()))
+                {
+                    foreach(var line in board.Board)
+                    {
+                        foreach (var val in line)
+                        {
+                            if (val.Value == num)
+                                val.Called = true;
+                        }
+                    }
+
+                    if (board.isWinner())
+                    {
+                        winningBoard = board.BoardNumber;
+                        winningNumber = num;
+                    }
+                }
+                
+                // if (!(winningBoard is null))
+                // {
+                //     
+                //     break;
+                // }
+                
+                
+            }
+
+            foreach (var board in bingo.BingoBoards)
+            {
+                if (board.isWinner())
+                {
+                    var temp = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("WINNER");
+                    Console.ForegroundColor = temp;
+
+                    foreach (var line in board.Board)
+                    {
+                        foreach (var val in line)
+                        {
+                            var color = Console.ForegroundColor;
+                            if (val.Called)
+                            {
+
+                                Console.ForegroundColor = ConsoleColor.Red;
+                            }
+
+                            Console.Write(" {0:D2} ", val.Value);
+                            Console.ForegroundColor = color;
+                        }
+
+                        Console.WriteLine();
+                    }
+
+                    Console.WriteLine();
+                }
+            }
+            Console.WriteLine(winningBoard);
+            Console.WriteLine(winningNumber);
+            Console.WriteLine("winning sum is {0} and winning number is {1}",bingo.BingoBoards[(int)winningBoard].GetUncalledNumberSum(), (int)winningNumber );
+            Console.WriteLine(bingo.BingoBoards[(int)winningBoard].GetUncalledNumberSum() * (int)winningNumber);
             
         }
 

@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode
+﻿namespace AdventOfCode.Day4
 {
     public class BingoNumber
     {

@@ -5,7 +5,7 @@
 #ifndef ADVENTOFCODE_DAY2DIVE_H
 #define ADVENTOFCODE_DAY2DIVE_H
 
-#include <stdint-gcc.h>
+#include <stdint.h>
 
 uint64_t day2_DivePart1();
 uint64_t day2_DivePart2();

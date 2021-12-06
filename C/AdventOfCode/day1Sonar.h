@@ -5,7 +5,7 @@
 #ifndef ADVENTOFCODE_DAY1SONAR_H
 #define ADVENTOFCODE_DAY1SONAR_H
 
-#include <stdint-gcc.h>
+#include <stdint.h>
 
 uint16_t day1_SonarPart1();
 uint16_t day1_SonarPart2();

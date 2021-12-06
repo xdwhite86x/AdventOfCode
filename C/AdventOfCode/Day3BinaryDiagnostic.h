@@ -4,7 +4,7 @@
 
 #ifndef ADVENTOFCODE_DAY3BINARYDIAGNOSTIC_H
 #define ADVENTOFCODE_DAY3BINARYDIAGNOSTIC_H
-#include <stdint-gcc.h>
+#include <stdint.h>
 
 uint16_t day3_binaryDiagnosticPart1();
 uint16_t day3_binaryDiagnosticPart2();
