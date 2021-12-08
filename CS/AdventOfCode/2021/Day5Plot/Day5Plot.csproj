@@ -7,20 +7,20 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Include="..\Day5\Coordinates.cs">
+      <Compile Include="..\AdventOfCode\Day5\Coordinates.cs">
         <Link>Coordinates.cs</Link>
       </Compile>
-      <Compile Include="..\Day5\HydroThermalLine.cs">
+      <Compile Include="..\AdventOfCode\Day5\HydroThermalLine.cs">
         <Link>HydroThermalLine.cs</Link>
       </Compile>
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\Day5\inputDay5-test.txt">
+      <Content Include="..\AdventOfCode\Day5\inputDay5-test.txt">
         <Link>inputDay5-test.txt</Link>
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="..\Day5\inputDay5.txt">
+      <Content Include="..\AdventOfCode\Day5\inputDay5.txt">
         <Link>inputDay5.txt</Link>
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>

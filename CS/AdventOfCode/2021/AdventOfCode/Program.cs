@@ -1,4 +1,10 @@
-﻿using System;
+﻿//#define TEST
+#if TEST
+#define VERBOSE
+#endif
+
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,23 +14,39 @@ using AdventOfCode.Day4;
 using AdventOfCode.Day5;
 using Microsoft.VisualBasic.FileIO;
 
+
+
+
 namespace AdventOfCode
 {
     class Program
     {
+        
+        #if TEST
+        private const string file = "./Day5/inputDay5-test.txt";
+        private const int gridSize = 10;
+        #else
+        private const string file = "./Day5/inputDay5.txt";
+        private const int gridSize = 1000;
+        #endif
         private static Bingo bingo;
         private static List<HydroThermalLine> pointsList = new();
-        public static int[,] grid = new int[10, 10];
+        public static int[,] grid = new int[gridSize, gridSize];
         static void Main(string[] args)
         {
-            day5_part1();
+            day6_part1();
+        }
+
+        private static void day6_part1()
+        {
+            
         }
 
         private static void day5_part1()
         {
-            for (int i = 0; i < 10; ++i)
+            for (int i = 0; i < gridSize; ++i)
             {
-                for (int j = 0; j < 10; ++j)
+                for (int j = 0; j < gridSize; ++j)
                 {
                     grid[i, j] = 0;
                 }
@@ -32,64 +54,103 @@ namespace AdventOfCode
             ParseLineDataFile();
             foreach (var line in pointsList)
             {
-                Console.WriteLine(line.Angle);
+                //Console.WriteLine(line.Angle);
                 
                 
                 if (line.isHorizontalOrVertical)
                 {
-                    if (line.Angle is 0 or 180) //horizontal line start is left of end
+                    if (line.Start.Y == line.End.Y) //horizontal line start is left of end
                     {
-                        for (int i = line.Start.X; i < line.End.X; ++i)
+                        for (int i = Math.Min(line.Start.X, line.End.X); i <= Math.Max(line.Start.X, line.End.X); ++i)
                         {
                             grid[i, line.End.Y]++;
                         }
                     }
-                    if (line.Angle is 90)// vertical line start is above end
+                    if (line.Start.X == line.End.X)// vertical line start is above end
                     {
-                        for (int i = line.Start.Y; i < line.End.Y; ++i)
+                        for (int i = Math.Min(line.Start.Y, line.End.Y); i <= Math.Max(line.Start.Y, line.End.Y); ++i)
                         {
                             grid[line.End.X, i]++;
                         }
                     }
-                    if (line.Angle is -180) //horizontal line end is left of start
+                }
+                else //line is diagonal
+                {
+                    if (Math.Abs(line.DeltaX) == Math.Abs(line.DeltaY))
                     {
-                        for (int i = line.Start.X; i < line.End.X; --i)
+                        Console.WriteLine("Diagonal Line Coordinates = {0}", line.ToString());
+                        Console.WriteLine("Diagonal Line angle= {0}", line.Angle);
+                        Console.WriteLine("diagonal line length = {0}", line.GetLineLength());
+                        int x = 0, y = 0;
+                        
+                        switch (line.Angle)
                         {
-                            grid[i, line.End.X]++;
-                        }
-                    }
-                    if (line.Angle is -90) //vertical line end is above start
-                    {
-                        for (int i = line.Start.Y; i < line.End.Y; --i)
-                        {
-                            grid[line.End.Y, i]++;
+                            case 45:
+                                for (int i = 0; i <= Math.Abs(line.DeltaX); ++i)
+                                {
+                                    x = line.Start.X + i;
+                                    y = line.Start.Y + i;
+                                    grid[x, y]++;
+                                }
+                                break;
+                            case 135:
+                                for (int i = 0; i <= Math.Abs(line.DeltaX); ++i)
+                                {
+                                    x = line.Start.X - i;
+                                    y = line.Start.Y + i;
+                                    grid[x, y]++;
+                                }
+                                break;
+                            case -45:
+                                for (int i = 0; i <= Math.Abs(line.DeltaX); ++i)
+                                {
+                                    x = line.Start.X + i;
+                                    y = line.Start.Y - i;
+                                    grid[x, y]++;
+                                }
+                                break;
+                            case -135:
+                                for (int i = 0; i <= Math.Abs(line.DeltaX); ++i)
+                                {
+                                    x = line.Start.X - i;
+                                    y = line.Start.Y - i;
+                                    grid[x, y]++;
+                                }
+                                break;
+
                         }
                     }
                 }
             }
             
-            for (int i = 0; i < 10; ++i)
+            
+            var multiPoints = 0;
+            for (int i = 0; i < gridSize; ++i)
             {
-                for (int j = 0; j < 10; ++j)
+                for (int j = 0; j < gridSize; ++j)
                 {
+                    if (grid[i, j] > 1)
+                        ++multiPoints;
+                    #if VERBOSE
                     Console.Write("{0:D1}",grid[i,j]);
+                    #endif
                 }
+                #if VERBOSE
                 Console.WriteLine();
+                #endif
             }
-        }
 
-        private static double GetLineAngle(HydroThermalLine hl)
-        {
-            return (Math.Atan2(hl.DeltaY, hl.DeltaX)) * 180 / Math.PI;
+            Console.WriteLine(multiPoints);
         }
-
         private static void ParseLineDataFile()
         {
-            using StreamReader sr = new("./Day5/inputDay5-test.txt");
+            using StreamReader sr = new(file);
             while (!(sr.EndOfStream))
             {
                 var hl = new HydroThermalLine(sr.ReadLine());
                 pointsList.Add(hl);
+                Console.WriteLine(hl.ToString());
+                Console.WriteLine(hl.Angle);
             }
           
         }

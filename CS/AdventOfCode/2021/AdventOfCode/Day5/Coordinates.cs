@@ -9,7 +9,7 @@ namespace AdventOfCode.Day5
 
         public override string ToString()
         {
-            return $"{X:D3}, {Y:D3}";
+            return $"{X,3},{Y,3}";
         }
 
         public double GetDistanceTo(Coordinates pt2)

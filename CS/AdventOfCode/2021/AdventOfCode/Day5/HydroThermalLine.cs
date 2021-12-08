@@ -41,12 +41,22 @@ namespace AdventOfCode.Day5
             var points = fileLine.Split("->");
             Coordinates start = new();
             Coordinates end = new();
-                
+            //int x1, x2, y1, y2;    
             start.X = int.Parse(points[0].Split(',')[0]);
             start.Y = int.Parse(points[0].Split(',')[1]);
             end.X = int.Parse(points[1].Split(',')[0]);
             end.Y = int.Parse(points[1].Split(',')[1]);
 
+            // if (start.GetDistanceTo(end) < 0)
+            // {
+            //     Start = start;
+            //     End = end;
+            // }
+            // else
+            // {
+            //     Start = end;
+            //     End = start;
+            // }
             Start = start;
             End = end;
         }
@@ -72,5 +82,7 @@ namespace AdventOfCode.Day5
         {
             return null;
         }
+
+
     }
 }

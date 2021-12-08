@@ -33,14 +33,26 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Remove="Day5Plot\**" />
+    <None Remove="Day6\**" />
+    <None Remove="Day7\**" />
+    <None Remove="2020\**" />
+    <None Remove="Day8\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Day5Plot\**" />
+    <Compile Remove="Day6\**" />
+    <Compile Remove="Day7\**" />
+    <Compile Remove="2020\**" />
+    <Compile Remove="Day8\**" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="Day5Plot\**" />
+    <EmbeddedResource Remove="Day6\**" />
+    <EmbeddedResource Remove="Day7\**" />
+    <EmbeddedResource Remove="2020\**" />
+    <EmbeddedResource Remove="Day8\**" />
   </ItemGroup>
 
 </Project>
