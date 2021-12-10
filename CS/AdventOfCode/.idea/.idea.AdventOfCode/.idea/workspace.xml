@@ -9,11 +9,15 @@
     <projectFile>2020/Day2/Day2.csproj</projectFile>
     <projectFile>2020/Day3/Day3.csproj</projectFile>
     <projectFile>2021/Day8/Day8.csproj</projectFile>
+    <projectFile>2021/Day9/Day9.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/2021/Day9/input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day9/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day8/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day9/Day9.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day9/Day9.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day9/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day9/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21sqxvlF7fsI2v7TvFQZWO97yLh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +53,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Day8">
+  <component name="RunManager" selected=".NET Project.Day9">
     <configuration name="AdventOfCode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -228,6 +234,7 @@
       <workItem from="1638904052140" duration="4577000" />
       <workItem from="1638972776455" duration="2545000" />
       <workItem from="1638997423961" duration="3746000" />
+      <workItem from="1639095461389" duration="6008000" />
     </task>
     <servers />
   </component>
@@ -237,6 +244,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
