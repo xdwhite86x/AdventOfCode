@@ -13,14 +13,7 @@
     <projectFile>2021/Day10/Day10.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021/Day10/Day10.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day10/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day10/input-test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day10/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
-    </list>
+    <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +248,7 @@
       <workItem from="1638904052140" duration="4577000" />
       <workItem from="1638972776455" duration="2545000" />
       <workItem from="1638997423961" duration="3746000" />
-      <workItem from="1639095461389" duration="7625000" />
+      <workItem from="1639095461389" duration="7908000" />
     </task>
     <servers />
   </component>
