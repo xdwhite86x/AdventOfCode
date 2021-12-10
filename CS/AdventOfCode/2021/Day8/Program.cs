@@ -23,6 +23,7 @@ namespace Day8
     }
     class Program
     {
+        //number of segments to make number
         private const int one = 2;
         private const int four = 4;
         private const int seven = 3;
