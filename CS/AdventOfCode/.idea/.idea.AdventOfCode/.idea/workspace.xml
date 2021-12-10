@@ -10,14 +10,16 @@
     <projectFile>2020/Day3/Day3.csproj</projectFile>
     <projectFile>2021/Day8/Day8.csproj</projectFile>
     <projectFile>2021/Day9/Day9.csproj</projectFile>
+    <projectFile>2021/Day10/Day10.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021/Day9/input-test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day9/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day10/Day10.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day10/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day10/input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day10/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day9/Day9.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day9/Day9.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day9/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day9/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34983897" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2999195" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -81,6 +84,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/2020/Day1/Day1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day10" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day10/Day10.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -234,7 +255,7 @@
       <workItem from="1638904052140" duration="4577000" />
       <workItem from="1638972776455" duration="2545000" />
       <workItem from="1638997423961" duration="3746000" />
-      <workItem from="1639095461389" duration="6008000" />
+      <workItem from="1639095461389" duration="7625000" />
     </task>
     <servers />
   </component>
@@ -256,6 +277,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
