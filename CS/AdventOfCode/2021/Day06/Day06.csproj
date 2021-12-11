@@ -3,13 +3,14 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Day6</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="Input7.txt">
+      <None Update="input6-test.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="input7-test.txt">
+      <None Update="input6.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
