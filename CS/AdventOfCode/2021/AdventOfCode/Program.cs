@@ -34,7 +34,7 @@ namespace AdventOfCode
         public static int[,] grid = new int[gridSize, gridSize];
         static void Main(string[] args)
         {
-            day6_part1();
+
         }
 
         private static void day6_part1()

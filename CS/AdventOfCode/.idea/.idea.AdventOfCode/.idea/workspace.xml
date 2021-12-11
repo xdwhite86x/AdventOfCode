@@ -19,35 +19,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021/Day08Jpp/Day08Jpp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day08Jpp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day08Jpp/input-test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day08Jpp/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day11/Day11.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day11/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/ExtensionMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/NewFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/NewFile1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/NewFile2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/Octopus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/input-test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day11/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day5Plot/Day5Plot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day05Plot/Day05Plot.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day5Plot/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day05Plot/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day5Plot/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day05Plot/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day5Plot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day05Plot/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day6/Day6.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day06/Day06.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day6/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day06/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day6/input6-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day06/input6-test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day6/input6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day06/input6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day6/lanternfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day06/lanternfish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day7/Day7.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day07/Day07.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day7/Input7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day07/Input7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day07/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day7/input7-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day07/input7-test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day8/Day8.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day09/Day09.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day08/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day8/input-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day08/input-test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day8/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day08/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day9/Day9.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day08/Day08.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day9/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day09/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day9/input-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day09/input-test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day9/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day09/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/AdventOfCode/ExtensionMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/AdventOfCode/ExtensionMethods.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/AdventOfCode/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/AdventOfCode/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day11/Day11.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day11/Day11.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day11/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day11/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +41,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="62b567b3-4f8f-45a7-80a9-8fafa6dd94c3" />
+        <option name="url" value="git@github.com:xdwhite86x/AdventOfCode.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2020/Day2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/B7/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ec253ffb8cb568d79e012f1153a5596741d92274d6256fee07e323a55e653b5/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/394/FileStream.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ec253ffb8cb568d79e012f1153a5596741d92274d6256fee07e323a55e653b5/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc2e1711ae48c25377a35219da8e74d9e39668dec55cec8cbd485a2b626893de/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,10 +103,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="C#" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Day8Jpp">
+  <component name="RunManager" selected=".NET Project.Day11">
     <configuration name="AdventOfCode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -98,7 +120,7 @@
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_KIND" value="Unloaded" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" />
@@ -376,7 +398,8 @@
       <workItem from="1638997423961" duration="3746000" />
       <workItem from="1639095461389" duration="7908000" />
       <workItem from="1639146520589" duration="8453000" />
-      <workItem from="1639184717373" duration="2512000" />
+      <workItem from="1639184717373" duration="3012000" />
+      <workItem from="1639245463305" duration="11868000" />
     </task>
     <servers />
   </component>
@@ -427,10 +450,15 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="DotNetProject">
-        <watch expression="input" />
-        <watch expression="s[^1]" language="C#" />
-        <watch expression="badChar" language="C#" />
-        <watch expression="charList.Peek()" language="C#" />
+        <watch expression="octopusGrid" language="C#" />
+        <watch expression="octopusGrid[line][index].Energy" language="C#" />
+        <watch expression="octopusGrid.ToSimpleString()" language="C#" />
+        <watch expression="temp[i][j]" language="C#" />
+        <watch expression="temp2[i][j]" language="C#" />
+        <watch expression="i" language="C#" />
+        <watch expression="octopusGrid" language="C#" />
+        <watch expression="new System.Collections.Generic.ICollectionDebugView&lt;System.Collections.Generic.List&lt;Day11.Octopus&gt;&gt;(octopusGrid).Items[0]" />
+        <watch expression="octopusGrid[line][index].Energy" language="C#" />
       </configuration>
     </watches-manager>
   </component>
