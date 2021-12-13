@@ -21,16 +21,85 @@
     <projectFile>2021/Day03/Day03.csproj</projectFile>
     <projectFile>2021/Day04/Day04.csproj</projectFile>
     <projectFile>2021/Day05/Day05.csproj</projectFile>
+    <projectFile>2021/Day12/Day12.csproj</projectFile>
+    <projectFile>2021/Day13/Day13.csproj</projectFile>
+    <projectFile>2021/Day14/Day14.csproj</projectFile>
+    <projectFile>2021/Day15/Day15.csproj</projectFile>
+    <projectFile>2021/Day16/Day16.csproj</projectFile>
+    <projectFile>2021/Day17/Day17.csproj</projectFile>
+    <projectFile>2021/Day18/Day18.csproj</projectFile>
+    <projectFile>2021/Day19/Day19.csproj</projectFile>
+    <projectFile>2021/Day20/Day20.csproj</projectFile>
+    <projectFile>2021/Day21/Day21.csproj</projectFile>
+    <projectFile>2021/Day22/Day22.csproj</projectFile>
+    <projectFile>2021/Day23/Day23.csproj</projectFile>
+    <projectFile>2021/Day24/Day24.csproj</projectFile>
+    <projectFile>2021/Day25/Day25.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021/Day04/Bingo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day04/BingoBoard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day04/BingoNumber.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/Day04/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day12/Day12.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day12/ExtensionMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day12/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day12/Input-test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day12/Input-test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day12/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day12/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day13/Day13.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day13/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day14/Day14.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day14/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day14/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day14/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day15/Day15.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day15/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day15/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day15/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day16/Day16.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day16/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day16/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day16/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day17/Day17.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day17/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day17/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day17/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day18/Day18.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day18/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day18/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day18/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day19/Day19.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day19/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day19/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day19/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day20/Day20.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day20/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day20/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day20/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day21/Day21.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day21/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day21/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day21/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day22/Day22.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day22/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day22/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day22/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day23/Day23.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day23/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day23/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day23/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day24/Day24.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day24/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day24/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day24/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day25/Day25.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day25/Input-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day25/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day25/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day04/Day04.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day04/Day04.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day04/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day04/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day04/BingoBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day04/BingoBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day04/BingoNumber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day04/BingoNumber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day06/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day06/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +108,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -51,7 +128,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/2020/Day2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d7899a78e7cef6dab3d14eb6a6ae6d2c047f92f89b5a93e53a905cd7d15315/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc2e1711ae48c25377a35219da8e74d9e39668dec55cec8cbd485a2b626893de/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/B7/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
@@ -80,7 +156,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Day04">
+  <component name="RunManager" selected=".NET Project.Day12">
     <configuration name="AdventOfCode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -297,6 +373,150 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day12" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day12/Day12.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day13" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day13/Day13.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day14" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day14/Day14.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day15" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day15/Day15.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day16" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day16/Day16.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day17" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day17/Day17.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day18" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day18/Day18.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day19" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day19/Day19.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Day2" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -306,6 +526,114 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/2020/Day2/Day2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day20" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day20/Day20.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day21" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day21/Day21.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day22" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day22/Day22.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day23" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day23/Day23.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day24" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day24/Day24.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day25" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day25/Day25.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -463,7 +791,8 @@
       <workItem from="1639146520589" duration="8453000" />
       <workItem from="1639184717373" duration="3012000" />
       <workItem from="1639245463305" duration="11868000" />
-      <workItem from="1639265134596" duration="12226000" />
+      <workItem from="1639265134596" duration="19113000" />
+      <workItem from="1639411342521" duration="1169000" />
     </task>
     <servers />
   </component>
@@ -509,19 +838,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/2021/Day04/Program.cs</url>
-          <line>64</line>
-          <properties documentPath="C:\Users\jaksl\AdventOfCode\CS\AdventOfCode\2021\Day04\Program.cs" initialLine="61" containingFunctionPresentation="method 'Part1'">
-            <startOffsets>
-              <option value="2021" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2121" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

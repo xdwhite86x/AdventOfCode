@@ -1,4 +1,7 @@
-﻿namespace Day04
+﻿using System;
+using System.Net.Sockets;
+
+namespace Day04
 {
     public class BingoNumber
     {
@@ -13,13 +16,35 @@
 
         public static bool operator ==(BingoNumber a, int b)
         {
+            if (a is null)
+            {
+                return false;
+            }
             return a.Value == b;
         }
 
         public static bool operator !=(BingoNumber a, int b)
         {
-            return !(a == b);
+            if (a is null)
+            {
+                return false;
+            }
+            return (a.Value != b);
         }
-        
+
+        public override bool Equals(object? obj)
+        {
+            return ReferenceEquals((BingoNumber)obj, this);
+        }
+
+        protected bool Equals(BingoNumber other)
+        {
+            return Value == other.Value && Called == other.Called;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Value, Called);
+        }
     }
 }

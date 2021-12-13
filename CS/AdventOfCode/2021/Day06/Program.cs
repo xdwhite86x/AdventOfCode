@@ -29,14 +29,18 @@ namespace Day6
             for (int i = 0; i < 256; ++i)
             {
                 var num0 = lf[0];
-                lf[0] = lf[1];
-                lf[1] = lf[2];
-                lf[2] = lf[3];
-                lf[3] = lf[4];
-                lf[4] = lf[5];
-                lf[5] = lf[6];
-                lf[6] = lf[7];
-                lf[7] = lf[8];
+                for (int indx = 0; indx < 8; ++indx)
+                {
+                    lf[indx] = lf[indx + 1];
+                }
+                //lf[0] = lf[1];
+                // lf[1] = lf[2];
+                // lf[2] = lf[3];
+                // lf[3] = lf[4];
+                // lf[4] = lf[5];
+                // lf[5] = lf[6];
+                // lf[6] = lf[7];
+                // lf[7] = lf[8];
                 lf[8] = num0;
                 lf[6] += num0;
 
