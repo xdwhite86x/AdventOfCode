@@ -36,16 +36,47 @@
     <projectFile>2021/Day24/Day24.csproj</projectFile>
     <projectFile>2021/Day25/Day25.csproj</projectFile>
     <projectFile>FetchAoCInput/FetchAoCInput.csproj</projectFile>
+    <projectFile>Net6.FetchAoCInput/Net6.FetchAoCInput.csproj</projectFile>
+    <projectFile>NetFramework.FetchAocInput/NetFramework.FetchAocInput.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FetchAoCInput/FetchAoCInput.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FetchAoCInput/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cookies-adventofcode-com.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/AdventOfCode/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/AdventOfCode/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/AdventOfCode/v17/.futdcache.v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/AdventOfCode/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day05Plot/Day05Plot.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Net6.FetchAoCInput/Net6.FetchAoCInput.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Net6.FetchAoCInput/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetFramework.FetchAocInput/NetFramework.FetchAocInput.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetFramework.FetchAocInput/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetFramework.FetchAocInput/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetFramework.FetchAocInput/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Engine.17.0.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Engine.17.0.0/MSBuild-NuGet-Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Engine.17.0.0/Microsoft.Build.Engine.17.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Engine.17.0.0/lib/net472/Microsoft.Build.Engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Engine.17.0.0/lib/net472/Microsoft.Build.Engine.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Engine.17.0.0/lib/net472/Microsoft.Build.Engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Engine.17.0.0/notices/THIRDPARTYNOTICES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/MSBuild-NuGet-Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/Microsoft.Build.Framework.17.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/lib/net472/Microsoft.Build.Framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/lib/net472/Microsoft.Build.Framework.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/lib/net472/Microsoft.Build.Framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/lib/netstandard2.0/Microsoft.Build.Framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/lib/netstandard2.0/Microsoft.Build.Framework.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/lib/netstandard2.0/Microsoft.Build.Framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Build.Framework.17.0.0/notices/THIRDPARTYNOTICES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../inputDlTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day12/Day12.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day12/Day12.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/Day14/Day14.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day14/Day14.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FetchAoCInput/FetchAoCInput.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FetchAoCInput/FetchAoCInput.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FetchAoCInput/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FetchAoCInput/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stdLibCs" beforeDir="false" afterPath="$PROJECT_DIR$/../../stdLibCs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +103,34 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2020/Day2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d7899a78e7cef6dab3d14eb6a6ae6d2c047f92f89b5a93e53a905cd7d15315/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc2e1711ae48c25377a35219da8e74d9e39668dec55cec8cbd485a2b626893de/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1937994f4b090772bebc4cdb1a1f1cea34bb1d4ceb8c621d9868944845677/CookieContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9f63b1889a3e46fd67e95ff4968e2df67f8b37e1c957536b1587d10e17d9190/Engine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/B7/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ec253ffb8cb568d79e012f1153a5596741d92274d6256fee07e323a55e653b5/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/394/FileStream.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3c9310ac1c5754bf34caa7c11d8b5a4b1f814d9a6f519a35a8e2d2aa0f57a60/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/416276fee7cba0af3efcfe83c255f25726c9c4a3734fddd5a79d17b294f494/Project.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dcbce79c28e49d0e5cf39ea7c527381de408b8249e345d9dc924e910a794/ProjectCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc2e1711ae48c25377a35219da8e74d9e39668dec55cec8cbd485a2b626893de/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/73f99b2224ed48b9259d785821221369b2e14b362cd79ca87512bb5b76dc/Where.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ec253ffb8cb568d79e012f1153a5596741d92274d6256fee07e323a55e653b5/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectId" id="21sqxvlF7fsI2v7TvFQZWO97yLh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -98,11 +147,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.49717513" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="C#" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Day12">
+  <component name="RunManager" selected=".NET Project.NetFramework.FetchAocInput">
     <configuration name="AdventOfCode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -733,6 +783,42 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Net6.FetchAoCInput" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Net6.FetchAoCInput/Net6.FetchAoCInput.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="NetFramework.FetchAocInput" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/NetFramework.FetchAocInput/NetFramework.FetchAocInput.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -757,7 +843,7 @@
       <workItem from="1639245463305" duration="11868000" />
       <workItem from="1639265134596" duration="19113000" />
       <workItem from="1639411342521" duration="1169000" />
-      <workItem from="1639415757812" duration="602000" />
+      <workItem from="1639415757812" duration="6863000" />
     </task>
     <servers />
   </component>
@@ -804,6 +890,45 @@
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FetchAoCInput/Program.cs</url>
+          <line>88</line>
+          <properties documentPath="C:\Users\jaksl\AdventOfCode\CS\AdventOfCode\FetchAoCInput\Program.cs" initialLine="86" containingFunctionPresentation="method 'ModifyCsProjForInputFile'">
+            <startOffsets>
+              <option value="3133" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3160" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FetchAoCInput/Program.cs</url>
+          <line>77</line>
+          <properties documentPath="C:\Users\jaksl\AdventOfCode\CS\AdventOfCode\FetchAoCInput\Program.cs" initialLine="77" containingFunctionPresentation="method 'ModifyCsProjForInputFile'">
+            <startOffsets>
+              <option value="2636" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2675" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NetFramework.FetchAocInput/Program.cs</url>
+          <line>89</line>
+          <properties documentPath="C:\Users\jaksl\AdventOfCode\CS\AdventOfCode\NetFramework.FetchAocInput\Program.cs" initialLine="89" containingFunctionPresentation="method 'ModifyCsProjForInputFile'">
+            <startOffsets>
+              <option value="3121" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3147" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -813,16 +938,10 @@
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="DotNetProject">
-        <watch expression="octopusGrid" language="C#" />
-        <watch expression="octopusGrid[line][index].Energy" language="C#" />
-        <watch expression="octopusGrid.ToSimpleString()" language="C#" />
-        <watch expression="temp[i][j]" language="C#" />
-        <watch expression="temp2[i][j]" language="C#" />
-        <watch expression="i" language="C#" />
-        <watch expression="octopusGrid" language="C#" />
-        <watch expression="new System.Collections.Generic.ICollectionDebugView&lt;System.Collections.Generic.List&lt;Day11.Octopus&gt;&gt;(octopusGrid).Items[0]" />
-        <watch expression="octopusGrid[line][index].Energy" language="C#" />
-        <watch expression="bingo.BingoBoards[99].GetUncalledNumberSum()" language="C#" />
+        <watch expression="projects" language="C#" />
+        <watch expression="Environment.CurrentDirectory" language="C#" />
+        <watch expression="p.Name.Substring(3, 2)" language="C#" />
+        <watch expression="dir" />
       </configuration>
     </watches-manager>
   </component>

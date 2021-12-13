@@ -5,4 +5,13 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\stdLibCs\stdLibCs\NetCore.stdLibCs.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Build" Version="17.0.0" />
+      <PackageReference Include="Microsoft.Build.Engine" Version="17.0.0" />
+    </ItemGroup>
+
 </Project>
