@@ -75,8 +75,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.stdLibCs", "..\..\s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net6.FetchAoCInput", "Net6.FetchAoCInput\Net6.FetchAoCInput.csproj", "{041B21F1-9E02-4860-BBC0-87CF8FD9C4B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFramework.FetchAocInput", "NetFramework.FetchAocInput\NetFramework.FetchAocInput.csproj", "{8CF38F9C-9E82-4858-94D4-9E6701D0CB62}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,10 +217,6 @@ Global
 		{041B21F1-9E02-4860-BBC0-87CF8FD9C4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041B21F1-9E02-4860-BBC0-87CF8FD9C4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041B21F1-9E02-4860-BBC0-87CF8FD9C4B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CF38F9C-9E82-4858-94D4-9E6701D0CB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CF38F9C-9E82-4858-94D4-9E6701D0CB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CF38F9C-9E82-4858-94D4-9E6701D0CB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CF38F9C-9E82-4858-94D4-9E6701D0CB62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

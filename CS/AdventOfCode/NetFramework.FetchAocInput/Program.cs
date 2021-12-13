@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Xml;
 using Microsoft.Build.BuildEngine;
 //using System.Threading.Channels;
 //using Microsoft.Build.BuildEngine;
@@ -83,16 +84,8 @@ namespace FetchAoCInput
             DirectoryInfo dir = new DirectoryInfo(Environment.CurrentDirectory);
             var csproj = dir.GetFiles("*.csproj").First();
             
-            var projFile = File.ReadAllText(csproj.FullName);
-            //Project proj = new(csproj.FullName);
-            // foreach(var i in proj.Items)
-            //     Console.WriteLine(i.ToString());
-            Engine eng = new Engine();
-            Project proj = new Project(eng);
-            proj.Load(csproj.FullName);
-            //proj.SetProperty("SignAssembly", "true");
-            //proj.Save(FullProjectPath);
-            
+            //var projFile = File.ReadAllText(csproj.FullName);
+            var projFile = new XmlReader()
 
 
         }
