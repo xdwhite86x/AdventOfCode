@@ -41,13 +41,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f2d1735-ea13-491a-929a-2f590867ce78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/2021/Day07/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/Day13/Input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Day12/Day12.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day12/Day12.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FetchAoCInput/FetchAoCInput.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FetchAoCInput/FetchAoCInput.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day05/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day05/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day06/Day06.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day06/Day06.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day07/Day07.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day07/Day07.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day13/Day13.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day13/Day13.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day14/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day14/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day15/Day15.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day15/Day15.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day16/Day16.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day16/Day16.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day17/Day17.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day17/Day17.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day18/Day18.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day18/Day18.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day19/Day19.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day19/Day19.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day20/Day20.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day20/Day20.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day21/Day21.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day21/Day21.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day21/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day21/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day22/Day22.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day22/Day22.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day23/Day23.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day23/Day23.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day24/Day24.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day24/Day24.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Day25/Day25.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Day25/Day25.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FetchAoCInput/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FetchAoCInput/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Net6.FetchAoCInput/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Net6.FetchAoCInput/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetFramework.FetchAocInput/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NetFramework.FetchAocInput/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +104,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3c9310ac1c5754bf34caa7c11d8b5a4b1f814d9a6f519a35a8e2d2aa0f57a60/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/416276fee7cba0af3efcfe83c255f25726c9c4a3734fddd5a79d17b294f494/Project.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dcbce79c28e49d0e5cf39ea7c527381de408b8249e345d9dc924e910a794/ProjectCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ab7111767fc557d8eb5baea7d293cef62e057a7fe91820f81bcac41ca32d/FileSystem.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc2e1711ae48c25377a35219da8e74d9e39668dec55cec8cbd485a2b626893de/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/73f99b2224ed48b9259d785821221369b2e14b362cd79ca87512bb5b76dc/Where.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -107,6 +122,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -814,7 +830,7 @@
       <workItem from="1639265134596" duration="19113000" />
       <workItem from="1639411342521" duration="1169000" />
       <workItem from="1639415757812" duration="6863000" />
-      <workItem from="1639433646360" duration="5861000" />
+      <workItem from="1639433646360" duration="6625000" />
     </task>
     <servers />
   </component>

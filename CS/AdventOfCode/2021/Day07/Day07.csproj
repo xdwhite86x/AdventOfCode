@@ -5,6 +5,11 @@
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>Day7</RootNamespace>
     </PropertyGroup>
+	<ItemGroup>
+<None Update="Input.txt">
+<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+</None>
+	</ItemGroup>
 
     <ItemGroup>
       <None Update="Input7.txt">

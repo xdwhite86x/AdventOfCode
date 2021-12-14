@@ -69,10 +69,9 @@ namespace FetchAoCInput
             if (File.Exists(inputDLFile))
                 File.Delete(inputDLFile);
 
-            using StreamWriter sw = new(inputDLFile);
+            //using StreamWriter sw = new(inputDLFile);
             
-            sw.Write(input.TrimEnd('\n', '\r'));
-            sw.Flush();
+            File.WriteAllText(inputDLFile,input.TrimEnd('\n', '\r'));
             ModifyCsProjForInputFile();
         }
 
