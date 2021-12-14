@@ -9,4 +9,8 @@
       <ProjectReference Include="..\..\..\stdLibCs\stdLibCs\NetCore.stdLibCs.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="CsProjEditor" Version="2.0.0" />
+    </ItemGroup>
+
 </Project>
