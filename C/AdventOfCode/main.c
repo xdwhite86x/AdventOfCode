@@ -20,7 +20,7 @@ int main()
 //  uint16_t temp = day3_binaryDiagnosticPart1();
 //  uint16_t temp2 = day4_Part1();
 
-  Day6Part1();
+//  Day6Part1();
 
 
 
