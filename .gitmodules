@@ -1,4 +1,4 @@
 [submodule "stdLibCs"]
 	path = stdLibCs
-	url = ssh://git@sapdev-git:/Git/source/work/stdLibCs
+	url = https://github.com/pfc-dev/stdLibCs.git
 	branch = master
