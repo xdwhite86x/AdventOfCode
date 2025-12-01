@@ -11,10 +11,10 @@ namespace FetchAoCInput
 {
     class Program
     {
-        public static readonly string AocFolder = Std.GetUserHomeDir() + Std.Separator +"AdventOfCode";
+        public static readonly string AocFolder = $"{Std.GetUserHomeDir()}{Path.DirectorySeparatorChar}AdventOfCode";
 
         public static readonly string CsAocFolder =
-            AocFolder + Std.Separator + "CS" + Std.Separator + "AdventOfCode" + Std.Separator + "2021";
+            $"{AocFolder}{Path.DirectorySeparatorChar}CS{Path.DirectorySeparatorChar}AdventOfCode{Path.DirectorySeparatorChar}2021";
         public const string cookieFile = "C:\\Users\\jaksl\\AdventOfCode\\cookies-adventofcode-com.txt";
         public static readonly string curlFmtString = "curl --cookie {0} -X GET https://adventofcode.com/2021/day/{1}/input";
         static void Main(string[] args)

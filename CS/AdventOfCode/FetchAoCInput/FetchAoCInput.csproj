@@ -2,15 +2,12 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\stdLibCs\stdLibCs\NetCore.stdLibCs.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="CsProjEditor" Version="2.0.0" />
+      <PackageReference Include="NetCore.stdLibCs" Version="1.0.9" />
     </ItemGroup>
 
 </Project>
